@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
+    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex flex-col md:flex-row justify-between items-center flex-wrap gap-5 text-center md:text-left">
       <div className="text-white-500 flex gap-2">
         <p>Terms & Conditions</p>
         <p>|</p>
@@ -31,3 +31,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
